@@ -1,5 +1,5 @@
 import React from 'react';
-import { DrugResult } from './types';
+import type { DrugResult } from './types';
 
 interface MedicationDetailsProps {
   medication: DrugResult;

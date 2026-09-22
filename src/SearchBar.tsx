@@ -1,6 +1,6 @@
-import React, { useState, useEffect, ChangeEvent } from 'react';
-import MedicationDetails from '/Users/shyam/Desktop/medibuddy/src/MedicationDetails.tsx';
-import { DrugResult } from '/Users/shyam/Desktop/medibuddy/src/types.ts';
+import React, { useState, useEffect, type ChangeEvent } from 'react';
+import MedicationDetails from './MedicationDetails.tsx';
+import type { DrugResult } from './types.ts';
 
 interface FdaApiResponse {
   results?: DrugResult[];
