@@ -101,15 +101,12 @@ const SearchBar: React.FC = () => {
 };
 
 const styles: Record<string, React.CSSProperties> = {
-  wrapper: { width: '100%', maxWidth: '500px', margin: '40px auto', padding: '15px', fontFamily: 'Courier New, monospace', boxSizing: 'border-box', backgroundColor: '#fff', color: '#000' },
-  mainTitle: { fontSize: '24px', fontWeight: 'bold', margin: '0 0 15px 0', borderBottom: '3px double #000', paddingBottom: '5px' },
-  searchBox: { width: '100%', padding: '10px', fontSize: '16px', fontFamily: 'Courier New, monospace', border: '3px solid #000', outline: 'none', boxSizing: 'border-box' },
-  loader: { color: 'blue', marginTop: '10px', fontSize: '14px', fontWeight: 'bold' },
-  errTxt: { color: 'red', marginTop: '10px', fontSize: '14px', fontWeight: 'bold' },
-  list: { listStyleType: 'none', padding: 0, marginTop: '15px', border: '3px solid #000', backgroundColor: '#fff' },
-  item: { padding: '10px', borderBottom: '1px solid #000', cursor: 'pointer', fontSize: '14px', position: 'relative' },
-  arrow: { float: 'right', color: '#666', fontSize: '12px' },
-  noData: { marginTop: '15px', border: '3px dashed #000', padding: '10px', textAlign: 'center', fontSize: '14px' }
+  container: { maxWidth: '400px', margin: '40px auto', padding: '0 15px', fontFamily: 'sans-serif' },
+  input: { width: '100%', padding: '8px 12px', fontSize: '15px', border: '1px solid black', borderRadius: '4px', boxSizing: 'border-box' },
+  msg: { fontSize: '14px', margin: '8px 0 0 0', color: 'black' },
+  list: { listStyleType: 'none', padding: 0, margin: '10px 0 0 0', border: '1px solid black', borderRadius: '4px' },
+  item: { padding: '10px', borderBottom: '1px solid black', cursor: 'pointer', fontSize: '14px', background: 'white' },
+  subText: { color: 'black', marginLeft: '5px', fontSize: '13px' }
 };
 
 export default SearchBar;

@@ -52,15 +52,13 @@ const MedicationDetails: React.FC<MedicationDetailsProps> = ({ medication, onBac
 };
 
 const styles: Record<string, React.CSSProperties> = {
-  page: { padding: '20px', fontFamily: 'Courier New, monospace', maxWidth: '800px', margin: '0 auto', backgroundColor: '#fff', color: '#000' },
-  btn: { padding: '8px 12px', fontSize: '14px', fontWeight: 'bold', backgroundColor: '#fff', border: '3px solid #000', cursor: 'pointer', marginBottom: '20px' },
-  header: { marginBottom: '20px' },
-  title: { fontSize: '28px', margin: '0 0 5px 0', textTransform: 'uppercase', letterSpacing: '-1px' },
-  sub: { fontSize: '16px', margin: 0, color: '#555', fontStyle: 'italic' },
-  box: { border: '3px solid #000', padding: '10px', marginBottom: '20px', backgroundColor: '#f0f0f0' },
-  section: { marginBottom: '25px' },
-  secTitle: { fontSize: '18px', borderBottom: '3px solid #000', paddingBottom: '3px', margin: '0 0 10px 0' },
-  text: { fontSize: '14px', lineHeight: '1.4', margin: 0 }
+   container: { maxWidth: '600px', margin: '20px auto', padding: '0 15px', fontFamily: 'sans-serif', color: 'black', lineHeight: '1.4' },
+  btn: { padding: '6px 12px', cursor: 'pointer', background: 'white', border: '1px solid black', borderRadius: '4px', color: 'blue' },
+  title: { fontSize: '24px', margin: '15px 0 5px 0', color: 'blue' },
+  subtitle: { color: 'black', margin: '0 0 15px 0', fontStyle: 'italic' },
+  meta: { padding: '10px', background: 'white', border: '1px solid black', borderRadius: '4px', marginBottom: '20px' },
+  section: { marginBottom: '20px' },
+  heading: { fontSize: '18px', borderBottom: '1px solid black', paddingBottom: '4px', margin: '0 0 8px 0', color: 'blue' }
 };
 
 export default MedicationDetails;
